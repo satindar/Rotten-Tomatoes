@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04ABC73B1AFAF025008FBA93 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ABC73A1AFAF025008FBA93 /* MovieDetailsViewController.swift */; };
 		04DD2CD71AFAA3DF00FB0D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD2CD61AFAA3DF00FB0D43 /* AppDelegate.swift */; };
 		04DD2CDC1AFAA3DF00FB0D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD2CDA1AFAA3DF00FB0D43 /* Main.storyboard */; };
 		04DD2CDE1AFAA3DF00FB0D43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DD2CDD1AFAA3DF00FB0D43 /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		04ABC7371AFAE631008FBA93 /* Rotten Tomatoes-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rotten Tomatoes-Bridging-Header.h"; sourceTree = "<group>"; };
+		04ABC73A1AFAF025008FBA93 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		04DD2CD11AFAA3DF00FB0D43 /* Rotten Tomatoes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rotten Tomatoes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD2CD51AFAA3DF00FB0D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04DD2CD61AFAA3DF00FB0D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				04DD2CF61AFAA45A00FB0D43 /* MoviesViewController.swift */,
+				04ABC73A1AFAF025008FBA93 /* MovieDetailsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ABC73B1AFAF025008FBA93 /* MovieDetailsViewController.swift in Sources */,
 				04DD2CD71AFAA3DF00FB0D43 /* AppDelegate.swift in Sources */,
 				04DD2CF71AFAA45A00FB0D43 /* MoviesViewController.swift in Sources */,
 				04DD2CFB1AFABB6500FB0D43 /* MovieViewCell.swift in Sources */,
